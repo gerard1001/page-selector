@@ -178,6 +178,6 @@
 .bottom-section button:hover {
   background-color: #ffd84d;
 }
-button:disabled {
+/* button:disabled {
   cursor: not-allowed;
-}
+} */

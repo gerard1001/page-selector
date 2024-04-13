@@ -6,7 +6,7 @@ function App() {
   const [selectAll, setSelectAll] = useState(false);
 
   useEffect(() => {
-    if (selectedPages.length === 8) {
+    if (selectedPages.length === 6) {
       setSelectAll(true);
     } else {
       setSelectAll(false);
@@ -47,7 +47,7 @@ function App() {
           </div>
         </div>
         <div className="middle-section">
-          {Array.from({ length: 8 }, (_, index) => (
+          {Array.from({ length: 6 }, (_, index) => (
             <div className="box-group" key={index}>
               <input
                 type="checkbox"
