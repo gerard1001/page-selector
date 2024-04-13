@@ -1,4 +1,4 @@
-# React Selector Component
+# React Selector
 
 Welcome! This is a frontend React page created using Vite.
 
