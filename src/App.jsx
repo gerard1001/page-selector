@@ -27,7 +27,7 @@ function App() {
     if (selectAll) {
       setSelectedPages([]);
     } else {
-      setSelectedPages([1, 2, 3, 4, 5, 6, 7, 8]);
+      setSelectedPages([1, 2, 3, 4, 5, 6]);
     }
     setSelectAll(!selectAll);
   };
